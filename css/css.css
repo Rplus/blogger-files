@@ -224,22 +224,26 @@ p.comment-footer a:hover{
 	color:silver;
 	text-indent:-3em;
 }
-.linkOut a{
-	margin:0 auto;
-	width:80%;
-	padding:15px 0;
-	display:block;
-	text-align:center;
+#Blog1 .linkOut a{
+	margin: 0 auto;
+	width: 80%;
+	padding: 15px 0;
+	display: block;
+	text-indent: -1em;
+	text-decoration: none;
 	border-left:60px solid #FFF;
+	overflow: hidden;
+	transition: all .5s;
 }
-.linkOut a:hover{
+#Blog1 .linkOut a:hover{
 	background-color:#FFC;
-	font-weight:900;
 	border-left-color:#DFA;
+	text-shadow: 0 0 1px #55F;
 }
 .linkOut img{
-	margin:0 auto;
-	display:block;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	float: left;
 }
 #Label1 h2{
 	font-size:18px;
