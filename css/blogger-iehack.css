@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+html .siteChoice img{
+  border: dashed silver;
+  border-width: 2px 0;
+}
+
+.titlewrapper{
+  text-align:right;
+}
+h1{
+  display: inline;
+  color: #EDC;
+  background: url('http://lh6.ggpht.com/_KMSmQe_MwRg/THCC5lt3MQI/AAAAAAAACRM/f-Z3nG3-d2I/h1bg.png') no-repeat -1px 13px;
+  position: relative;
+  top: 10px;
+}
+html h1 a {
+  color: #EDC;
+}
+.descriptionwrapper {
+  position: relative;
+}
+#outer-wrapper .toggle-open {
+  font-size: 1em;
+}
